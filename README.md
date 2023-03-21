@@ -1,5 +1,5 @@
 # Joke-Generator
-Responsive <i>Daddy's joke</i> generator using <a href="https://sv443.net/jokeapi/v2/">JokeAPI</a> and vanilla JS. <br>
+Responsive <a href="https://joke-generator-tau.vercel.app/"><i>Daddy's joke</i></a> generator using <a href="https://sv443.net/jokeapi/v2/">JokeAPI</a> and vanilla JS. <br>
 
 <hr>
 API: <a href="https://sv443.net/jokeapi/v2/">https://sv443.net/jokeapi/v2/</a><br>
