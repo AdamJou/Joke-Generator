@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #588ef9;
+  font-family: "Nunito", sans-serif;
+  background-image: url("dad.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: rgb(116, 116, 116);
+  background-blend-mode: multiply;
+}
+
+.inner-container {
+  width: 70vmin;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.6);
+}
+
+span {
+  font-style: italic;
+  color: yellow;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+}
+p {
+  color: white;
+  font-size: 1rem;
+  margin: 30px 0;
+
+  text-align: center;
+  word-wrap: break-word;
+}
+
+button {
+  position: relative;
+  margin-top: 1rem;
+  z-index: 1;
+  padding: 15px 30px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+
+  cursor: pointer;
+  background-image: linear-gradient(
+    to left,
+    yellow,
+    yellow,
+    50%,
+    white,
+    50%,
+    white
+  );
+  background-size: 200% 100%;
+  background-position: left center;
+  transition: all 0.5s;
+}
+
+button:hover {
+  /* animacja przycisku */
+  background-position: right center;
+}
